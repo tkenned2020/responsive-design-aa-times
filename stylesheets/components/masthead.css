@@ -4,8 +4,13 @@
 }
 
 .masthead__menu-and-search {
+  display: flex;
+  /* align-items: center; */
+  padding-top: 25px;
   grid-column-start: 1;
   grid-row-start: 1;
+  padding-bottom: 20px;;
+  padding-left: 20px;
 }
 .masthead__action {
   grid-column-start: 3;
@@ -27,3 +32,50 @@
   grid-column-start: 3;
   grid-row-start: 2;
 }
+
+.masthead-btn {
+  font-size: 11px;
+ padding: 7px 9px
+
+}
+.masthead-btn:hover {
+  background-color: lightgray;
+}
+.masthead-search {
+  font-size: 11px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+.masthead-search:hover {
+  background-color: lightgray;
+}
+
+.masthead__actions {
+  padding-top: 25px;
+text-align: center;
+  height: 150px;
+  /* align-items: center; */
+}
+
+.masthead__technologies {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  font-size: 10px;
+  color: #6f6f6f;
+  margin: 0 10px;
+}
+.tech {
+  margin: 0 4px;
+}
+
+.masthead__technology-list {
+  color: #6f6f6f;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-right: 40px;;
+}
+
