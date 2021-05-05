@@ -1,0 +1,31 @@
+.interests__links {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+}
+
+.dog {
+    height: 40px;
+    width: 40px;
+}
+.cat {
+    height: 40px;
+    width: 40px;
+}
+.plug {
+
+    height: 40px;
+    width: 40px;
+}
+.sun {
+
+    height: 40px;
+    width: 40px;
+}
+
+.headers__span {
+    font-size: small;
+}
+.text__span {
+    font-size: x-small;
+}
